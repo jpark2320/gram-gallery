@@ -1,0 +1,20 @@
+@import "../../assets/styles/colors";
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+
+  .title h1{
+    color: $primary;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  .title h2, .title p{
+    text-align: center;
+  }
+  .title h2{
+    margin-top: 60px;
+    font-size: 2.6rem;
+  }
+}
