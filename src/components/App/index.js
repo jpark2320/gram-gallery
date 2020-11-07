@@ -1,3 +1,4 @@
+import UploadForm from 'components/UploadForm';
 import styles from './App.module.scss';
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
         <h2>Your Pictures</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
+      <UploadForm />
     </div>
   );
 }
